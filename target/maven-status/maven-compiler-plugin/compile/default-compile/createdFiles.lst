@@ -1,0 +1,8 @@
+seleniumRaj\pageobjects\Checkoutpage.class
+seleniumRaj\pageobjects\LandingPage.class
+seleniumRaj\pageobjects\CartPageee.class
+seleniumRaj\pageobjects\ProductCatlog.class
+seleniumRaj\AbstractReusableComponenets\AbstractReusableComponenets.class
+seleniumRaj\pageobjects\OrderPageee.class
+seleniumRaj\pageobjects\Confirmation.class
+seleniumRaj\DataResources\ExtenrReporterNg.class

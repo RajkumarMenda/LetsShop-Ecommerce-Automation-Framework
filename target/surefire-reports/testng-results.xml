@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-16T19:08:51 IST" name="Surefire suite" finished-at="2026-04-16T19:09:20 IST" duration-ms="28669">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValdation()[pri:0, instance:seleniumRaj.tests.ErrorValidationsTest@14dd9eb7]" name="LoginErrorValdation" class="seleniumRaj.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_Wrapper.TestNgTest_Runner@6e171cd7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-04-16T19:08:51 IST" name="Surefire test" finished-at="2026-04-16T19:09:20 IST" duration-ms="28669">
+      <class name="seleniumRaj.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumRaj.tests.ErrorValidationsTest@14dd9eb7]" started-at="2026-04-16T19:08:58 IST" name="launchApplication" finished-at="2026-04-16T19:09:01 IST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValdation()[pri:0, instance:seleniumRaj.tests.ErrorValidationsTest@14dd9eb7]" started-at="2026-04-16T19:09:01 IST" name="LoginErrorValdation" finished-at="2026-04-16T19:09:02 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValdation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumRaj.tests.ErrorValidationsTest@14dd9eb7]" started-at="2026-04-16T19:09:02 IST" name="teardown" finished-at="2026-04-16T19:09:03 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumRaj.tests.ErrorValidationsTest@14dd9eb7]" started-at="2026-04-16T19:09:03 IST" name="launchApplication" finished-at="2026-04-16T19:09:06 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:seleniumRaj.tests.ErrorValidationsTest@14dd9eb7]" started-at="2026-04-16T19:09:06 IST" name="ProductErrorValidation" finished-at="2026-04-16T19:09:20 IST" duration-ms="14204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumRaj.tests.ErrorValidationsTest@14dd9eb7]" started-at="2026-04-16T19:09:20 IST" name="teardown" finished-at="2026-04-16T19:09:20 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumRaj.tests.ErrorValidationsTest -->
+      <class name="Cucumber_Wrapper.TestNgTest_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber_Wrapper.TestNgTest_Runner@6e171cd7]" started-at="2026-04-16T19:08:51 IST" name="setUpClass" finished-at="2026-04-16T19:08:52 IST" duration-ms="771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@428bdd72]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_Wrapper.TestNgTest_Runner@6e171cd7]" started-at="2026-04-16T19:08:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-16T19:08:58 IST" duration-ms="5496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Test of ErrorLoginValidation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Error Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber_Wrapper.TestNgTest_Runner@6e171cd7]" started-at="2026-04-16T19:08:58 IST" name="tearDownClass" finished-at="2026-04-16T19:08:58 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber_Wrapper.TestNgTest_Runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
