@@ -122,8 +122,10 @@ mvn test -DsuiteXmlFile=testng.xml
 
 ## 📸 Execution Reports
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c7532b0-2ec5-42ac-8326-268cf44bfe79" />
 <img width="1910" height="961" alt="image" src="https://github.com/user-attachments/assets/af62cfcd-8972-4c9d-a446-4c35c30e7ace" />
 <img width="1920" height="847" alt="image" src="https://github.com/user-attachments/assets/ce5cbfe9-ca56-45d0-bfce-7d540f4a29b7" />
+
 
 
 Example:
